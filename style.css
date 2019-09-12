@@ -1,0 +1,31 @@
+:root {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: salmon;
+}
+
+.bucket {
+  width: 150px;
+  height: 150px;
+  border: 3px dotted bisque;
+  margin: 3px;
+  float: left;
+}
+
+.circle {
+  width: 144px;
+  height: 144px;
+  border: 3px dotted brown;
+  border-radius: 50%;
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible !important;
+}
+
+.selected-circle {
+  border: 3px solid powderblue !important;
+}
