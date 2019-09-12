@@ -26,7 +26,7 @@ function moveCircle (clickedElement) {
   clickedElement.appendChild(circle)
 }
 
-bucketList.addEventListener('click', function (event) {
+bucketList.addEventListener('click', event => {
   if (circle.parentElement === event.target) return
 
   console.info('Click Target:', event.target)
